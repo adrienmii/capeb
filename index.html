@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <title>Téléchargez l'appli CAPEB</title>
+        <link href="dist/style.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <meta name="apple-itunes-app" content="app-id=971652081">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="dist/capeb.min.js" type="text/javascript"></script>
+        <meta property="og:title" content="CAPEB" />
+        <meta property="og:type" content="site.vitrine" />
+        <meta property="og:url" content="http://www.adrienmi.com/capeb/" />
+        <meta property="og:image" content="dist/img/logo.png" />
+    </head>
+    <body class="container-fluid">
+        <header class="row">
+            <div class="col-xs-12 col-md-7">
+                <h1 class="col-xs-8 col-sm-6"><img class="col-xs-12" src="dist/img/logo.png"><span class="hidden">CAPEB</span></h1>
+                <h4 class="col-xs-12">
+                    Pour votre iPhone ou Android, la CAPEB est plus proche de vous à présent : actualités, formations, boîtes à outils, notifications, etc.
+                </h4>
+                <a href="https://itunes.apple.com/fr/app/capeb-71/id971652081?mt=8" target="_blank"><img class="col-xs-6 col-sm-4 col-sm-offset-0 col-xs-offset-3" src="dist/img/apple.png"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.websenso.capeb71" target="_blank"><img class="col-xs-6 col-sm-4 col-sm-offset-0 col-xs-offset-3" src="dist/img/google.png"></a>
+            </div>
+
+            <div class="col-xs-12 col-md-5">
+                <img class="col-xs-6 col-sm-4 col-md-10 col-lg-6 col-md-offset-0 col-sm-offset-4 col-xs-offset-3 col-lg-offset-3" src="dist/img/capebscreen.png">
+            </div>
+        </header>
+        <main class="row text-center">
+            <select name="select" size="1" id="color" onchange="change_valeur();">
+                <option value="">Choisir une couleur</option>
+                <option value="jaune">Jaune</option>
+                <option value="rose">Rose</option>
+                <option value="vert">Vert</option>
+            </select>
+            <div class="" id="changecolor">
+                <p class="col-xs-12">
+                    <strong>Besoin d'une présentation rapide par e-mail ?<br>
+                        Avec plaisir, saisissez votre e-mail et vous recevrez immédiatement un très joli email.</strong>
+                </p>
+                <form class="form-inline col-xs-8 col-xs-offset-2" method="post" action="">
+                    <input class="form-control" type="email" required placeholder="Email">
+                    <input type="submit" class="newsletter btn btn-default" value="Recevoir la présentation">
+                </form>
+            </div>
+        </main>
+        <footer class="row">
+            <div class="network col-xs-8 col-xs-offset-2 text-center">
+                <a href="https://www.facebook.com/CAPEB-Alsace-201777793330070/" target="_blank"><i class="col-xs-6 col-sm-3 fa fa-facebook-official fa-4x"></i></a>
+                <a href="https://twitter.com/capeb_fr?lang=fr" target="_blank"><i class="col-xs-6 col-sm-3 fa fa-twitter fa-4x"></i></a>
+                <a href="http://www.capeb.fr/actualites.xml" target="_blank"><i class="col-xs-6 col-sm-3 fa fa-rss fa-4x"></i></a>
+                <a href="mailto:capeb@capeb-auvergnerhonealpes.fr" target="_blank"><i class="col-xs-6 col-sm-3 fa fa-envelope fa-4x"></i></a>
+            </div>
+            <p class="text-center col-xs-12">MIW © 2016</p>
+        </footer>
+
+    </body>
+</html>
